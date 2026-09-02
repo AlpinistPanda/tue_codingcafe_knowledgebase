@@ -4,11 +4,17 @@ project:
   description: >-
     A living collection of notes, worked examples, and runnable code from the
     BE Coding Café sessions at Eindhoven University of Technology.
+  authors:
+    - name: Özgün Balaban
+      url: https://ozgunbalaban.com
+      affiliations:
+        - Eindhoven University of Technology
+      # orcid: 0000-0000-0000-0000   # TODO: add once confirmed
   keywords:
     - research software
     - reproducibility
     - AI for research
-  github: https://github.com/REPLACE-ME/tue_knowledgebase
+  github: https://github.com/AlpinistPanda/tue_codingcafe_knowledgebase
   toc:
     - file: index.md
     - title: Reproducibility
