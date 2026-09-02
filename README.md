@@ -5,7 +5,7 @@ runnable code from the BE Coding Café sessions at the Department of the Built
 Environment, TU/e.
 
 The companion website (schedule, slides, posters) lives in a separate repo:
-[ISBE-TUe/coding-cafe](https://github.com/ISBE-TUe/coding-cafe).
+[TUe-BE-ISBE-Coding-Cafe/coding-cafe](https://github.com/TUe-BE-ISBE-Coding-Cafe/coding-cafe).
 
 ## Run it locally
 
