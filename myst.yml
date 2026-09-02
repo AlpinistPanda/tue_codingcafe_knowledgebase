@@ -1,0 +1,25 @@
+version: 1
+project:
+  title: TU/e BE Coding Café Knowledge Base
+  description: >-
+    A living collection of notes, worked examples, and runnable code from the
+    BE Coding Café sessions at Eindhoven University of Technology.
+  keywords:
+    - research software
+    - reproducibility
+    - AI for research
+  github: https://github.com/REPLACE-ME/tue_knowledgebase
+  toc:
+    - file: index.md
+    - title: Reproducibility
+      children:
+        - file: chapters/reproducible-ai-experiments.md
+site:
+  template: book-theme
+  title: BE Coding Café Knowledge Base
+  options:
+    favicon: null
+    logo_text: BE Coding Café
+  nav:
+    - title: Coding Café website
+      url: https://github.com/ISBE-TUe/coding-cafe

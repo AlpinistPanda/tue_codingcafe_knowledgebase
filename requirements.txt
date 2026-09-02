@@ -1,0 +1,2 @@
+# Pinned so the book builds the same way in CI and on your machine.
+numpy==2.1.3

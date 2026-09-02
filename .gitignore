@@ -1,0 +1,17 @@
+# MyST build output
+_build/
+.myst/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.obsidian/
+.idea/
+.vscode/
