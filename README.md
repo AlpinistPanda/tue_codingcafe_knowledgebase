@@ -19,7 +19,8 @@ afterwards, to the people who were there and to those who were not.
 It is written for researchers in the Built Environment: PhD candidates, postdocs, engineers and
 designers. No prior software engineering experience is assumed.
 
-The companion website (schedule, slides, posters) lives in a separate repo:
+The companion website, with the schedule, slides and posters, is
+[becodingcafe.com](https://www.becodingcafe.com). Its source is in a separate repo:
 [TUe-BE-ISBE-Coding-Cafe/coding-cafe](https://github.com/TUe-BE-ISBE-Coding-Cafe/coding-cafe).
 
 ## What is inside

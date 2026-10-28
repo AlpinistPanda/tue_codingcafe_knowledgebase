@@ -58,11 +58,15 @@ site:
   template: book-theme
   title: BE Coding Café Knowledge Base
   options:
-    favicon: null
+    favicon: _static/be-coding-cafe-logo.png
+    logo: _static/be-coding-cafe-logo.png
+    logo_dark: _static/be-coding-cafe-logo-dark.png
     logo_text: BE Coding Café
+    logo_url: https://www.becodingcafe.com
+    logo_alt: BE Coding Café logo, a coffee mug with a building on it
     folders: true
   nav:
-    - title: ← Coding Café website
-      url: https://github.com/TUe-BE-ISBE-Coding-Cafe/coding-cafe
+    - title: ← BE Coding Café website
+      url: https://www.becodingcafe.com
     - title: "#30DayMapChallenge"
       url: https://tue-be-isbe-coding-cafe.github.io/30daymapchallenge-2026/

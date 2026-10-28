@@ -8,10 +8,25 @@ handed you a course on how to keep your files straight, how to make your analysi
 run on a machine that isn't your laptop, or what to do when your data outgrows a
 spreadsheet. You picked it up as you went, and mostly it works.
 
-This book is the written companion to the [BE Coding Café](https://github.com/TUe-BE-ISBE-Coding-Cafe/coding-cafe)
+This book is the written companion to the [BE Coding Café](https://www.becodingcafe.com)
 at TU/e. Sessions are an hour and a half — things get demonstrated, questions get
 asked, and then everyone goes back to their own work and forgets the details.
 This is where those details live.
+
+:::{card}
+:link: https://www.becodingcafe.com
+
+```{image} _static/be-coding-cafe-logo-tile.png
+:alt: BE Coding Café logo
+:width: 72px
+:align: left
+```
+
+**BE Coding Café** · [becodingcafe.com](https://www.becodingcafe.com)
+
+The schedule of upcoming sessions, slides and recordings from past ones, and how to propose a
+topic or give a talk.
+:::
 
 ## Do you recognise any of these?
 
