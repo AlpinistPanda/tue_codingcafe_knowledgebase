@@ -124,8 +124,8 @@ The rule is always the same: **project first, then measure.**
 
 GeoJSON, shapely, GeoPandas and `sf` all use (x, y), which means (longitude, latitude). People,
 Google Maps and many spreadsheets write (latitude, longitude). Swap them and Eindhoven (5.48° E,
-51.44° N) lands in Somalia (51.44° E, 5.48° N). If your points end up in the Indian Ocean, this
-is why.
+51.44° N) lands in the Indian Ocean off Somalia (51.44° E, 5.48° N). If your points end up in the
+sea near the equator, this is why.
 
 ## Making points from a table
 

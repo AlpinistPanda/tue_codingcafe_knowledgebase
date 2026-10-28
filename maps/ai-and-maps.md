@@ -30,7 +30,7 @@ These are the failures we see again and again, roughly in order of how much dama
 |---|---|---|
 | **Invented data** | Plausible coordinates, counts or place names that do not exist. A "sample dataset" that the code quietly uses instead of the real one. | When a download fails or no data is given, the model fills the gap rather than stopping. |
 | **Wrong or missing CRS** | Distances in degrees, a squashed map, buffers that are ellipses, layers that do not line up | Models often skip the reprojection step, or reproject only one of two layers. |
-| **Lat/lon swapped** | Points in the Indian Ocean or Somalia instead of Eindhoven | Training data mixes `(lat, lon)` and `(x, y)` conventions. |
+| **Lat/lon swapped** | Points in the Indian Ocean off Somalia instead of Eindhoven | Training data mixes `(lat, lon)` and `(x, y)` conventions. |
 | **Wrong OSM tags** | `amenity=coffee_shop` (no such value), or missing ways and relations so half the features are gone | The model guesses tags instead of checking the wiki. |
 | **Stale APIs** | Code that calls functions renamed or removed several versions ago (`geometries_from_place` in old `osmnx`, `unary_union` warnings) | Training data lags behind the libraries. |
 | **No attribution** | A map of OSM data with no "© OpenStreetMap contributors" | Credits are not part of "make a map" unless you ask. |
@@ -114,7 +114,7 @@ Then, by eye:
 - **Check the credits.** Every source named, with its licence.
 
 If the assistant made a mistake, tell it what was wrong rather than asking it to "fix the map".
-"The points are in Somalia: you swapped latitude and longitude in `points_from_xy`" gets a correct
+"The points are in the Indian Ocean: you swapped latitude and longitude in `points_from_xy`" gets a correct
 answer; "it looks wrong" gets a different guess.
 
 ## Being open about it
