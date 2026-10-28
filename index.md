@@ -1,6 +1,6 @@
 ---
 title: Start here
-subtitle: A field guide for researchers who did not sign up to be software engineers
+subtitle: A field guide for researchers working in the Built Environment
 ---
 
 You are doing a PhD in the Built Environment, not in computer science. Nobody
@@ -26,12 +26,14 @@ flowchart TD
     Q -->|"My laptop takes three days<br/>to run this"| CC[Cloud computing]
     Q -->|"My data is forty spreadsheets<br/>held together by hope"| DB[Databases]
     Q -->|"I need my data to connect<br/>to someone else's data"| RDF[RDF]
+    Q -->|"Someone asked me<br/>for a map"| MAP[Maps in code]
 
-    click VC "./chapters/version-control.md"
-    click DK "./chapters/docker.md"
-    click CC "./chapters/cloud-computing.md"
-    click DB "./chapters/databases.md"
-    click RDF "./chapters/rdf.md"
+    click VC "./version-control/version-control.md"
+    click DK "./running-elsewhere/docker.md"
+    click CC "./running-elsewhere/cloud-computing.md"
+    click DB "./structuring-data/databases.md"
+    click RDF "./structuring-data/rdf.md"
+    click MAP "./maps/index.md"
 :::
 
 Nothing here is a prerequisite for anything else. Read the one that matches your
@@ -47,7 +49,7 @@ yourself a zip file as a backup, this cluster is for you.
 ::::{grid} 1 1 1 1
 
 :::{card} Version control
-:link: ./chapters/version-control.md
+:link: ./version-control/version-control.md
 
 **"Which one is the final version?"**
 
@@ -70,7 +72,7 @@ different solutions and they combine well.
 ::::{grid} 1 1 2 2
 
 :::{card} Docker
-:link: ./chapters/docker.md
+:link: ./running-elsewhere/docker.md
 
 **"It works on my machine"**
 
@@ -84,7 +86,7 @@ description of the setup has rotted.
 :::
 
 :::{card} Cloud computing
-:link: ./chapters/cloud-computing.md
+:link: ./running-elsewhere/cloud-computing.md
 
 **"This will take three days on my laptop"**
 
@@ -106,7 +108,7 @@ When a spreadsheet stops being the right tool, and what to reach for instead.
 ::::{grid} 1 1 2 2
 
 :::{card} Databases
-:link: ./chapters/databases.md
+:link: ./structuring-data/databases.md
 
 **"My data is forty spreadsheets"**
 
@@ -120,7 +122,7 @@ developer to use one.
 :::
 
 :::{card} RDF and linked data
-:link: ./chapters/rdf.md
+:link: ./structuring-data/rdf.md
 
 **"How do I connect my data to theirs?"**
 
@@ -134,6 +136,27 @@ backbone of a lot of Built Environment data work, from BIM to city-scale models.
 
 ::::
 
+## Putting it on a map
+
+Almost everything in the Built Environment happens somewhere. Sooner or later your data has
+coordinates, and someone asks for a map.
+
+::::{grid} 1 1 1 1
+
+:::{card} Making maps in code
+:link: ./maps/index.md
+
+**"Can you make a map of this?"**
+
+You can export a screenshot from Google Maps, or you can make a map that is reproducible,
+correctly projected, and credits its data. This section takes you from a GeoJSON file to a
+finished map in Python or R: projections, Dutch open data, map design, rasters, and how to use an
+AI assistant without publishing something that is wrong. It doubles as a guide to the
+#30DayMapChallenge, with a technique for every one of the 30 themes.
+:::
+
+::::
+
 ---
 
 ## How to use this book
@@ -141,4 +164,4 @@ backbone of a lot of Built Environment data work, from BIM to city-scale models.
 Every page with code is executable. You can **read it** — each chapter stands on
 its own — or **run it**, by cloning the repo and serving it locally. Corrections
 and additions from people who attended a session are the whole point; see
-[Contributing](contributing.md).
+[Contributing](CONTRIBUTING.md).

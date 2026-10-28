@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: TU/e BE Coding Café Knowledge Base
+message: >-
+  If you use this knowledge base in your teaching or your work,
+  please cite it as below.
+abstract: >-
+  Notes, worked examples, and runnable code from the BE Coding Café sessions
+  at the Department of the Built Environment, Eindhoven University of
+  Technology. Covers version control, containers and cloud computing,
+  databases and linked data, reproducible AI experiments, and making maps in
+  code, written for researchers with no prior software experience assumed.
+authors:
+  - given-names: Özgün
+    family-names: Balaban
+    email: o.balaban@tue.nl
+    affiliation: Eindhoven University of Technology (TU/e)
+    website: https://ozgunbalaban.com
+    orcid: https://orcid.org/0000-0002-7270-2058
+repository-code: https://github.com/AlpinistPanda/tue_codingcafe_knowledgebase
+url: https://alpinistpanda.github.io/tue_codingcafe_knowledgebase/
+license: CC-BY-4.0
+keywords:
+  - research software
+  - reproducibility
+  - built environment
+  - version control
+  - containers
+  - geospatial
+  - cartography
+  - AI for research

@@ -8,7 +8,7 @@ short_title: Docker
 **Docker & Reproducibility** — 2 July 2025, Vertigo 9.06, presented by Özgün Balaban.
 Slides are archived on Zenodo: [10.5281/zenodo.15802618](https://doi.org/10.5281/zenodo.15802618).
 The exercises below are the ones from the session, in the
-[Coding Café repository](https://github.com/ISBE-TUe/coding-cafe/tree/main/static/events/2025-07-02_docker-and-reproducibility).
+[Coding Café repository](https://github.com/TUe-BE-ISBE-Coding-Cafe/coding-cafe/tree/main/static/events/2025-07-02-docker-and-reproducibility).
 :::
 
 ## The problem: dependency hell

@@ -6,7 +6,7 @@ short_title: Databases
 :::{note} This chapter is still being written
 The write-up from the Coding Café session on this topic has not been added yet.
 What follows is the short version of why it is worth your time. If you attended
-the session, or ran it, your notes belong here — see [Contributing](../contributing.md).
+the session, or ran it, your notes belong here — see [Contributing](../CONTRIBUTING.md).
 :::
 
 ## Why this matters

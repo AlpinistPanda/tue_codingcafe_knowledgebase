@@ -1,43 +1,68 @@
 version: 1
 project:
   title: TU/e BE Coding Café Knowledge Base
+  subtitle: Notes, worked examples, and runnable code from the BE Coding Café sessions
   description: >-
     A living collection of notes, worked examples, and runnable code from the
     BE Coding Café sessions at Eindhoven University of Technology.
   authors:
     - name: Özgün Balaban
+      email: o.balaban@tue.nl
       url: https://ozgunbalaban.com
+      orcid: 0000-0002-7270-2058
       affiliations:
         - Eindhoven University of Technology
-      # orcid: 0000-0000-0000-0000   # TODO: add once confirmed
   keywords:
     - research software
     - reproducibility
+    - built environment
+    - geospatial
     - AI for research
   github: https://github.com/AlpinistPanda/tue_codingcafe_knowledgebase
+  license:
+    content: CC-BY-4.0
+    code: MIT
   toc:
     - file: index.md
     - title: Keeping track of your work
       children:
-        - file: chapters/version-control.md
-    - title: Running it elsewhere
+        - file: version-control/index.md
+        - file: version-control/version-control.md
+    - title: Running it somewhere else
       children:
-        - file: chapters/docker.md
-        - file: chapters/cloud-computing.md
-    - title: Structuring your data
+        - file: running-elsewhere/index.md
+        - file: running-elsewhere/docker.md
+        - file: running-elsewhere/cloud-computing.md
+    - title: Giving your data a structure
       children:
-        - file: chapters/databases.md
-        - file: chapters/rdf.md
+        - file: structuring-data/index.md
+        - file: structuring-data/databases.md
+        - file: structuring-data/rdf.md
     - title: Reproducibility
       children:
-        - file: chapters/reproducible-ai-experiments.md
-    - file: contributing.md
+        - file: reproducibility/index.md
+        - file: reproducibility/reproducible-ai-experiments.md
+    - title: Making maps in code
+      children:
+        - file: maps/index.md
+        - file: maps/anatomy.md
+        - file: maps/vector-data.md
+        - file: maps/projections.md
+        - file: maps/finding-data.md
+        - file: maps/design.md
+        - file: maps/beyond-vectors.md
+        - file: maps/ai-and-maps.md
+        - file: maps/challenge-guide.md
+    - file: CONTRIBUTING.md
 site:
   template: book-theme
   title: BE Coding Café Knowledge Base
   options:
     favicon: null
     logo_text: BE Coding Café
+    folders: true
   nav:
-    - title: Coding Café website
+    - title: ← Coding Café website
       url: https://github.com/TUe-BE-ISBE-Coding-Cafe/coding-cafe
+    - title: "#30DayMapChallenge"
+      url: https://tue-be-isbe-coding-cafe.github.io/30daymapchallenge-2026/
